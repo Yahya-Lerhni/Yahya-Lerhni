@@ -11955,8 +11955,8 @@ textarea.form-control-lg {
 header {
   position: relative;
 }
-header h5, header .h5 {
-  font-family: cursive;
+header h1, header .h1 {
+  font-family: Brush Script Mt;
 }
 header p {
   font-size: 18px;
@@ -12016,7 +12016,7 @@ main {
   position: relative;
 }
 .main1 h1, .main1 .h1 {
-  font-family: cursive;
+  font-family: Brush Script MT;
 }
 
 .play {
@@ -12054,8 +12054,8 @@ main {
   height: 7vh;
 }
 
-h3, .h3, h4, .h4 {
-  font-family: cursive;
+h1, .h1, h4, .h4 {
+  font-family: Brush Script MT;
 }
 
 .div-main2 {
@@ -12083,6 +12083,68 @@ h3, .h3, h4, .h4 {
 }
 .div-main2:hover h2, .div-main2:hover .h2 {
   color: white;
+}
+
+.main3 h1, .main3 .h1 {
+  font-family: Brush Script Mt;
+}
+
+.main3-links a {
+  font-family: Brush Script MT;
+}
+
+.main3-links h4, .main3-links .h4 {
+  cursor: pointer;
+}
+.main3-links a:hover {
+  color: #ffb03b !important;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 7vw;
+  align-items: center;
+}
+
+.menu-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8vh solid #ececec;
+}
+.menu-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.menu-title .b-bottom {
+  width: 15vw;
+  border-bottom: 2px dotted #b4b4ce;
+}
+.menu-title h3, .menu-title .h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.menu-title h2, .menu-title .h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffb03b;
+}
+.menu-title p {
+  font-size: 14px;
+  color: #a1a1a1;
+  font-style: italic;
+  width: 30vw;
+}
+
+.menu-title h3:hover, .menu-title .h3:hover {
+  color: #ffb03b;
+}
+
+.chek {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */
