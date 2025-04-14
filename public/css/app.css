@@ -12005,9 +12005,18 @@ nav {
   background-color: black;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
 .main1 {
   background-color: #fffaf3;
   position: relative;
+}
+.main1 h1, .main1 .h1 {
+  font-family: cursive;
 }
 
 .play {
@@ -12037,6 +12046,43 @@ nav {
   height: 80px;
   left: 25vw;
   bottom: 38vh;
+}
+
+.p-main2 {
+  background-color: rgba(255, 176, 59, 0.2);
+  width: 15vh;
+  height: 7vh;
+}
+
+h3, .h3, h4, .h4 {
+  font-family: cursive;
+}
+
+.div-main2 {
+  width: 33%;
+  height: 50vh;
+  background-color: #f9f9f9;
+  transition: 0.5s ease;
+}
+.div-main2 h2, .div-main2 .h2 {
+  color: #ffb03b;
+}
+.div-main2 p {
+  color: #8d8d8d;
+  font-size: 13px;
+  width: 20vw;
+}
+
+.div-main2:hover {
+  background-color: #ffb03b;
+  color: white;
+  padding: 5vh !important;
+}
+.div-main2:hover p {
+  color: white;
+}
+.div-main2:hover h2, .div-main2:hover .h2 {
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
