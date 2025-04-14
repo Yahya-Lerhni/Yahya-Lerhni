@@ -12005,4 +12005,38 @@ nav {
   background-color: black;
 }
 
+.main1 {
+  background-color: #fffaf3;
+  position: relative;
+}
+
+.play {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffb03b;
+  position: absolute;
+  bottom: 40vh;
+  left: 25.8vw;
+  z-index: 999;
+}
+
+.opacity {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffb03b;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 38vh;
+  left: 25vw;
+}
+
+.play:hover {
+  width: 80px;
+  height: 80px;
+  left: 25vw;
+  bottom: 38vh;
+}
+
 /*# sourceMappingURL=app.css.map */
