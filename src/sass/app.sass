@@ -1,3 +1,13 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$orange: #ffb03b
+
+
+$custom-colors: (
+"orange": $orange,
+)
+$theme-colors: map-merge($custom-colors , $theme-colors)
 @import ../../node_modules/bootstrap/scss/bootstrap.scss
 @import ../../node_modules/bootstrap-icons/font/bootstrap-icons.css
 @import ../sass/variables
