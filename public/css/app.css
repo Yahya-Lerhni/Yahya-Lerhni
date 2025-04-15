@@ -12149,6 +12149,12 @@ h1, .h1, h4, .h4 {
   grid-template-columns: 30% 60%;
 }
 
+.p-main4 {
+  background-color: rgba(255, 176, 59, 0.2);
+  width: 8vw;
+  height: 5vh;
+}
+
 .left1 {
   display: flex;
   justify-content: start;
@@ -12264,6 +12270,65 @@ h1, .h1, h4, .h4 {
 
 .p1 {
   width: 42vw;
+}
+
+h2, .h2 {
+  border-bottom: 2px solid #ffb03b;
+  width: 5vw;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.p-main6 {
+  background-color: rgba(255, 176, 59, 0.2);
+  width: 10vw;
+  height: 5vh;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  padding: 7%;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 4vw;
+}
+form textarea {
+  padding-left: 1vw;
+}
+form button {
+  border: none;
+  width: 15vw;
+  height: 10vh;
+  background-color: #ffb03b;
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+form button:hover {
+  background-color: rgba(255, 176, 59, 0.7);
+}
+
+.main6-img img {
+  width: 100%;
+}
+
+.main6-input {
+  padding-left: 1vw;
+  width: 14vw;
+  height: 8vh;
+}
+
+input:focus {
+  border: 3px solid #ffb03b !important;
+}
+
+textarea:focus {
+  border: 3px solid #ffb03b !important;
 }
 
 /*# sourceMappingURL=app.css.map */
