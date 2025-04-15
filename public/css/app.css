@@ -12093,9 +12093,6 @@ h1, .h1, h4, .h4 {
   font-family: Brush Script MT;
 }
 
-.main3-links h4, .main3-links .h4 {
-  cursor: pointer;
-}
 .main3-links a:hover {
   color: #ffb03b !important;
 }
@@ -12145,6 +12142,104 @@ h1, .h1, h4, .h4 {
 
 .chek {
   display: none;
+}
+
+.special {
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+
+.left1 {
+  display: flex;
+  justify-content: start;
+  border-right: 2px solid #ffb03b;
+  width: 25vw;
+  height: 9vh;
+  cursor: pointer;
+}
+.left1 p {
+  font-weight: bold;
+}
+
+.left2, .left3, .left4, .left5 {
+  display: flex;
+  justify-content: start;
+  border-right: 2px solid #ececec;
+  width: 25vw;
+  height: 9vh;
+  cursor: pointer;
+}
+.left2 p, .left3 p, .left4 p, .left5 p {
+  font-weight: bold;
+}
+
+.left2:hover p, .left3:hover p, .left4:hover p, .left5:hover p {
+  color: #ffb03b;
+}
+
+.right1 h1, .right1 .h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.right1 p {
+  font-style: italic;
+  color: #77756e;
+  width: 41vw;
+}
+.right1 img {
+  width: 45vw;
+  height: 45vh;
+}
+
+.right-special {
+  position: relative;
+}
+
+.right2, .right3, .right4, .right5 {
+  position: absolute;
+  right: 91vw;
+}
+.right2 h1, .right2 .h1, .right3 h1, .right3 .h1, .right4 h1, .right4 .h1, .right5 h1, .right5 .h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.right2 p, .right3 p, .right4 p, .right5 p {
+  font-style: italic;
+  color: #77756e;
+  width: 41vw;
+}
+.right2 img, .right3 img, .right4 img, .right5 img {
+  width: 45vw;
+  height: 45vh;
+}
+
+.chek2 {
+  display: none;
+}
+
+.left2:active, .left3:active, .left4:active, .left5:active {
+  border-right: 2px solid #ffb03b;
+}
+
+#left2-check:checked + .right2, #left2-check1:checked + .right3, #left2-check2:checked + .right4, #left2-check3:checked + .right5 {
+  top: 0vh;
+  left: 29.6vw;
+}
+
+#left2-check:checked + .right2 .right2-title {
+  background-color: white;
+}
+
+#left2-check1:checked + .right3 .right3-title {
+  background-color: white;
+}
+
+#left2-check2:checked + .right4 .right4-title {
+  background-color: white;
+}
+
+#left2-check3:checked + .right5 .right5-title {
+  background-color: white;
 }
 
 /*# sourceMappingURL=app.css.map */

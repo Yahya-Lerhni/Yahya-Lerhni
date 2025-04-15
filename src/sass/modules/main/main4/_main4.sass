@@ -1,0 +1,68 @@
+.special
+    display: grid
+    grid-template-columns: 30% 60%
+
+.left1
+    display: flex
+    justify-content: start
+    border-right: 2px solid #ffb03b
+    width: 25vw
+    height: 9vh
+    cursor: pointer
+    p
+        font-weight: bold
+.left2, .left3, .left4, .left5
+    @include left()
+.left2, .left3, .left4, .left5
+    &:hover
+        p
+            color: #ffb03b
+.right1
+    h1
+        font-size: 30px
+        font-weight: bold
+    p
+        font-style: italic
+        color: #77756e
+        width: 41vw
+    img
+        width: 45vw
+        height: 45vh
+.right-special
+    position: relative
+.right2, .right3, .right4, .right5
+    
+    
+    position: absolute
+    right: 91vw
+    h1
+        font-size: 30px
+        font-weight: bold
+    p
+        font-style: italic
+        color: #77756e
+        width: 41vw
+    img
+        width: 45vw
+        height: 45vh
+.chek2
+    display: none
+.left2, .left3, .left4, ,.left5
+    &:active
+        border-right: 2px solid #ffb03b
+
+#left2-check:checked +.right2, #left2-check1:checked +.right3, #left2-check2:checked +.right4, #left2-check3:checked +.right5 
+    top: 0vh
+    left:29.6vw
+#left2-check:checked +.right2
+    .right2-title
+        background-color: white
+#left2-check1:checked +.right3
+    .right3-title
+        background-color: white
+#left2-check2:checked +.right4
+    .right4-title
+        background-color: white
+#left2-check3:checked +.right5
+    .right5-title
+        background-color: white
