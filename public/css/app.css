@@ -12008,7 +12008,7 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  gap: 5vh;
+  gap: 10vh;
 }
 
 .main1 {
@@ -12197,7 +12197,7 @@ h1, .h1, h4, .h4 {
 
 .right2, .right3, .right4, .right5 {
   position: absolute;
-  right: 91vw;
+  right: 94vw;
 }
 .right2 h1, .right2 .h1, .right3 h1, .right3 .h1, .right4 h1, .right4 .h1, .right5 h1, .right5 .h1 {
   font-size: 30px;
@@ -12240,6 +12240,30 @@ h1, .h1, h4, .h4 {
 
 #left2-check3:checked + .right5 .right5-title {
   background-color: white;
+}
+
+.main5 {
+  background-image: url(../images/events.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.main5-img img {
+  width: 40vw !important;
+}
+
+.opaciti1 {
+  background-color: hsla(240, 7%, 6%, 0.7);
+  height: 100%;
+}
+
+.main5-pad {
+  padding: 7vw;
+}
+
+.p1 {
+  width: 42vw;
 }
 
 /*# sourceMappingURL=app.css.map */
