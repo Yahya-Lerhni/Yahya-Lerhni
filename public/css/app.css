@@ -12045,6 +12045,9 @@ textarea.form-control-lg {
   box-sizing: border-box;
   text-decoration: none !important;
 }
+* h5, * .h5 {
+  font-family: Brush Script Mt;
+}
 
 header {
   position: relative;
