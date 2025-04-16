@@ -2,10 +2,10 @@
     h1
         font-family: Brush Script Mt
 .main3-links
-    a
-        font-family: Brush Script MT
+    h5
+        cursor: pointer
 .main3-links
-    a
+    h5
         &:hover
             color: #ffb03b !important
 .menu
@@ -33,6 +33,7 @@
         font-size: 18px
         font-weight: bold
         color: #ffb03b
+        width: 4vw
     p
         font-size: 14px
         color: #a1a1a1
@@ -44,3 +45,43 @@
             color:  #ffb03b
 .chek
     display: none
+// #All:checked +.menu1, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9
+//     display: block !important
+#Starters:checked ~ .menu2
+    display: none !important
+#Starters:checked ~ .menu4
+    display: none !important
+#Starters:checked ~ .menu5
+    display: none !important
+#Starters:checked ~ .menu7
+    display: none !important
+#Starters:checked ~ .menu8
+    display: none !important
+#Starters:checked ~ .menu9
+    display: none !important
+
+#Salade:checked ~ .menu2
+    display: none !important
+#Salade:checked ~ .menu1
+    display: none !important
+#Salade:checked ~ .menu5
+    display: none !important
+#Salade:checked ~ .menu9
+    display: none !important
+#Salade:checked ~ .menu3
+    display: none !important
+#Salade:checked ~ .menu6
+    display: none !important
+
+#Specialty:checked ~ .menu3
+    display: none !important
+#Specialty:checked ~ .menu4
+    display: none !important
+#Specialty:checked ~ .menu1
+    display: none !important
+#Specialty:checked ~ .menu7
+    display: none !important
+#Specialty:checked ~ .menu8
+    display: none !important
+#Specialty:checked ~ .menu6
+    display: none !important
