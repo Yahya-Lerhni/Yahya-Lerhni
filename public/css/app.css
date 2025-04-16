@@ -12216,6 +12216,25 @@ nav {
   background-color: black;
 }
 
+@media (max-width: 375px) {
+  body {
+    width: fit-content;
+  }
+  .h-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+  }
+  .h-button button {
+    width: 100%;
+  }
+  nav {
+    gap: 5vw;
+    height: 20vh;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
@@ -12242,6 +12261,14 @@ main {
   z-index: 99999;
 }
 
+@media (max-width: 375px) {
+  .po-fix {
+    width: 10vw;
+    height: 10vh;
+    top: 180vh;
+    left: 180vw;
+  }
+}
 .main1 {
   background-color: #fffaf3;
   position: relative;
@@ -12279,6 +12306,20 @@ main {
   bottom: 38vh;
 }
 
+@media (max-width: 375px) {
+  .main1-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .opacity {
+    top: 45vh;
+    left: 85vw;
+  }
+  .play {
+    top: 47vh;
+    left: 87.5vw;
+  }
+}
 .p-main2 {
   background-color: rgba(255, 176, 59, 0.2);
   width: 15vh;
@@ -12316,6 +12357,18 @@ h1, .h1, h4, .h4 {
   color: white;
 }
 
+@media (max-width: 375px) {
+  .why-us {
+    flex-direction: column;
+    width: 100%;
+  }
+  .div-main2 {
+    width: 100%;
+  }
+  .div-main2 p {
+    width: 100%;
+  }
+}
 .main3 h1, .main3 .h1 {
   font-family: Brush Script Mt;
 }
@@ -12552,6 +12605,42 @@ h1, .h1, h4, .h4 {
   background-color: white;
 }
 
+@media (max-width: 375px) {
+  .special1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .left1, .left2, .left3, .left4, .left5 {
+    width: 100%;
+  }
+  .right1, .right2, .right3, .right4, .right5 {
+    width: 100%;
+    gap: 1vh !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .right1-title, .right2-title, .right3-title, .right4-title, .right5-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15vw;
+  }
+  .right1-title p, .right2-title p, .right3-title p, .right4-title p, .right5-title p {
+    width: 100% !important;
+    text-align: center;
+  }
+  .right2, .right3, .right4, .right5 {
+    right: 191vw;
+  }
+  #left2-check:checked + .right2, #left2-check1:checked + .right3, #left2-check2:checked + .right4, #left2-check3:checked + .right5 {
+    top: 5vh;
+    left: 0vw;
+  }
+  .p-main4 {
+    width: 25vw;
+    height: 10vh;
+  }
+}
 .main5 {
   background-image: url(../images/events.jpg);
   height: 100vh;
@@ -12585,6 +12674,15 @@ h2, .h2 {
   display: none;
 }
 
+@media (max-width: 375px) {
+  .main5-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main5-1 .p1 {
+    width: 100%;
+  }
+}
 .p-main6 {
   background-color: rgba(255, 176, 59, 0.2);
   width: 10vw;
@@ -12635,6 +12733,32 @@ textarea:focus {
   border: 3px solid #ffb03b !important;
 }
 
+@media (max-width: 375px) {
+  .p-main6 {
+    width: 50vw;
+    height: 10vh;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+  .main6-form {
+    gap: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main6-form input {
+    width: 100%;
+    height: 10vh;
+  }
+  textarea {
+    width: 100%;
+  }
+  .button-main6 {
+    width: 50vw;
+  }
+}
 .main7-img {
   display: flex;
   flex-wrap: wrap;
@@ -12719,6 +12843,13 @@ textarea:focus {
   background-size: 105%;
 }
 
+@media (max-width: 375px) {
+  .main7-img1, .main7-img2, .main7-img3, .main7-img4, .main7-img5, .main7-img6, .main7-img7, .main7-img8 {
+    width: 100%;
+    height: 100vh !important;
+    object-fit: cover;
+  }
+}
 .main8 {
   gap: 15vh;
 }
@@ -12782,6 +12913,37 @@ textarea:focus {
 
 .main8-p {
   width: 60vw;
+}
+
+@media (max-width: 375px) {
+  .main8 {
+    margin-top: 705vh;
+  }
+  .chefs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .chefs1 {
+    width: 100%;
+    margin-top: 25vh;
+  }
+  .chefs1 img {
+    width: 100%;
+  }
+  .chefs-sha {
+    width: 80%;
+    justify-content: center;
+    align-items: center !important;
+    height: 30vh;
+    top: 145vh !important;
+  }
+  .main8-last {
+    margin-top: 10vh;
+  }
+  .main8-p {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

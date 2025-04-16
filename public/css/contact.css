@@ -111,3 +111,8 @@
 .b-input:hover{
     background-color: hsla(36, 100%, 62%, 0.9);
 }
+@media (max-width:375px){
+    .b-input button{
+        width: 30vw;
+    }
+}
