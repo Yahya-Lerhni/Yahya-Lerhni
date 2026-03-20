@@ -27,22 +27,73 @@ const yahya = {
   currentGoal: "Building AI-powered applications & mastering DevOps",
   mindset: "Code clean. Think scalable. Build real value."
 };
-⚡ Tech Stack
-🎨 Frontend
+```
+
+## ⚡ Tech Stack
+
+### 🎨 Frontend
 <p> <img src="https://skillicons.dev/icons?i=js,react,tailwind,html,css" /> </p>
-🧩 Backend & Database
+
+### 🧩 Backend & Database
 <p> <img src="https://skillicons.dev/icons?i=laravel,php,python,mysql,nodejs" /> </p>
-⚙️ Tools
+
+### ⚙️ Tools
 <p> <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux" /> </p>
-🚀 Featured Projects
-<div align="center"> <table> <tr> <td width="50%"> <h3 align="center">🛒 E-Commerce Platform</h3> <a href="https://github.com/yahyalerhni"> <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=yahyalerhni&repo=ecommerce-platform&theme=tokyonight"/> </a> <p align="center"> Laravel · React · MySQL · Tailwind <br/> Full store with auth, cart & admin dashboard </p> </td> <td width="50%"> <h3 align="center">📋 Project Manager</h3> <a href="https://github.com/yahyalerhni"> <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=yahyalerhni&repo=project-manager&theme=tokyonight"/> </a> <p align="center"> React · Laravel API <br/> Kanban system with team collaboration </p> </td> </tr> </table> </div>
-📊 GitHub Stats
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=yahyalerhni&show_icons=true&theme=tokyonight" height="170"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yahyalerhni&layout=compact&theme=tokyonight" height="170"/> <br/> <img src="https://github-readme-streak-stats.herokuapp.com?user=yahyalerhni&theme=tokyonight" width="60%"/> </div>
-🎯 Current Focus
-🚀 Building SaaS projects
-🤖 AI integration
-⚙️ DevOps learning
-📈 System design
-🌐 Connect With Me
-<div align="center"> <a href="mailto:yahyalerhni@gmail.com"> <img src="https://img.shields.io/badge/Gmail-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/> </a> <a href="https://linkedin.com/in/yahyalerhni"> <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> </div>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>```
+
+## 🚀 Featured Projects
+
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+<h3 align="center">🛒 E-Commerce Platform</h3>
+<a href="https://github.com/yahyalerhni">
+<img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=yahyalerhni&repo=ecommerce-platform&theme=tokyonight"/>
+</a>
+<p align="center">
+Laravel · React · MySQL · Tailwind <br/>
+Full store with auth, cart & admin dashboard
+</p>
+</td>
+<td width="50%">
+<h3 align="center">📋 Project Manager</h3>
+<a href="https://github.com/yahyalerhni">
+<img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=yahyalerhni&repo=project-manager&theme=tokyonight"/>
+</a>
+<p align="center">
+React · Laravel API <br/>
+Kanban system with team collaboration
+</p>
+</td>
+</tr>
+</table>
+</div>
+
+## 📊 GitHub Stats
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=yahyalerhni&show_icons=true&theme=tokyonight" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yahyalerhni&layout=compact&theme=tokyonight" height="170"/>
+<br/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=yahyalerhni&theme=tokyonight" width="60%"/>
+</div>
+
+## 🎯 Current Focus
+
+- 🚀 Building SaaS projects
+- 🤖 AI integration
+- ⚙️ DevOps learning
+- 📈 System design
+
+## 🌐 Connect With Me
+
+<div align="center">
+<a href="mailto:yahyalerhni@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://linkedin.com/in/yahyalerhni">
+<img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
